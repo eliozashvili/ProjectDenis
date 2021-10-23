@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: center;
   background: #bababa;
+  max-width: 1660px;
 }
 
 /* = = = = = HEADER = = = = = */
