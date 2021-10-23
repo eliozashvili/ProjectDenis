@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 
 * {
   margin: 0;
@@ -9,6 +10,9 @@ body {
   display: flex;
   justify-content: center;
   background: #bababa;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1660px;
 }
 
 /* = = = = = HEADER = = = = = */
@@ -38,6 +42,9 @@ td.cart-sum {
   font-style: normal;
   font-family: 'Montserrat', sans-serif;
 }
+td.cart-sum {
+  font-weight: 400;
+}
 p.text-under-electronic {
   font-size: 12px;
   font-weight: 300;
@@ -62,4 +69,40 @@ span.material-icons:hover {
   cursor: pointer;
   color: lightgrey;
   text-decoration: underline;
+}
+
+/* = = = = = MAIN PAGE = = = = = */
+/* = = = = =  MOTO/PC IMAGE = = = = = */
+
+img.PC-image {
+  position: relative;
+  left: 425px;
+}
+span.main-page-text {
+  position: relative;
+  bottom: 600px;
+  right: 180px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 26px;
+}
+p.text-under-moto {
+  font-weight: 500;
+  position: relative;
+  top: 50px;
+}
+div.catalog {
+  position: relative;
+  display: flex;
+  top: 100px;
+  width: 282px;
+  height: 57.06px;
+  background: #000000;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.32);
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
 }
