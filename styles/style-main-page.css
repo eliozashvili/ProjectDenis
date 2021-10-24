@@ -76,12 +76,13 @@ span.material-icons:hover {
 
 img.PC-image {
   position: relative;
-  left: 425px;
+  left: 440px;
+  width: 750px;
 }
 span.main-page-text {
   position: relative;
-  bottom: 600px;
-  right: 180px;
+  bottom: 450px;
+  right: 280px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 26px;
